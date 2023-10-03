@@ -6,9 +6,9 @@ public class TwistCallMethod {
 		System.out.println("I'm parent class constructor");
 	}	
 	
-	public TwistCallMethod(String s) {
+	public TwistCallMethod(String name) {
 		this();		
-		System.out.println(s);
+		System.out.println(name);
 	}
 	public TwistCallMethod(int age) {
 		this();		
@@ -16,10 +16,7 @@ public class TwistCallMethod {
 	}	
 	public void parentMethod() {
 		System.out.println("I'm parent class method");
-	}
-	
-	
-	
+	}	
 	public static void main(String args[]) {
 		new TwistCallMethod();
 		new TwistCallMethod("Narmatha");

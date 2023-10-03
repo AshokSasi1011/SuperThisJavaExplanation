@@ -2,7 +2,7 @@ package org.superthiskeyword;
 
 public class ChildClass extends ParentClass{
 	
-	public static String s = "PREETHI";
+	public static String name = "PREETHI";
 	public static int age = 27;
 	
 	public ChildClass() {
@@ -10,16 +10,16 @@ public class ChildClass extends ParentClass{
 		System.out.println("I'm child class constructor");
 	}	
 		
-	public ChildClass(String s) {
+	public ChildClass(String name) {
 		this();	
-		System.out.println(s);
-		System.out.println(super.s);
+		System.out.println(name);
+		System.out.println(super.name);
 		
 	}
 	public ChildClass(int age) {
 		super();		
 		System.out.println(age);
-		System.out.println(this.s);
+		System.out.println(this.name);
 	}	
 	
 	public void childMethod() {

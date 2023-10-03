@@ -2,16 +2,16 @@ package org.superthiskeyword;
 
 public class ParentClass {	
 	
-	public static String s = "SASIKUMAR";
+	public static String name = "SASIKUMAR";
 	public static int age = 32;
 	
 	public ParentClass() {		
 		System.out.println("I'm parent class constructor");
 	}	
-	public ParentClass(String s) {
+	public ParentClass(String name) {
 		this();			
-		System.out.println(s);
-		System.out.println(this.s);
+		System.out.println(name);
+		System.out.println(this.name);
 	}
 	public ParentClass(int age) {
 		this();		
@@ -20,7 +20,7 @@ public class ParentClass {
 	}	
 	public void parentMethod() {
 		System.out.println("I'm parent class method");
-		System.out.println(this.s);
+		System.out.println(this.name);
 		System.out.println(this.age);
 	}
 	

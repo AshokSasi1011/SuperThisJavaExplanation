@@ -6,13 +6,13 @@ public class ParentClass {
 		System.out.println("I'm parent class constructor");
 	}	
 	
-	public ParentClass(String s) {
+	public ParentClass(String name) {
 		this();		
-		System.out.println(s);
+		System.out.println(name);
 	}
 	public ParentClass(int age) {
 		this();		
-		System.out.println(age);
+		System.out.println(age);		
 	}	
 	public void parentMethod() {
 		System.out.println("I'm parent class method");

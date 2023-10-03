@@ -7,9 +7,9 @@ public class ChildClass extends ParentClass{
 		System.out.println("I'm child class constructor");
 	}	
 		
-	public ChildClass(String s) {
+	public ChildClass(String name) {
 		this();	
-		System.out.println(s);
+		System.out.println(name);
 	}
 	public ChildClass(int age) {
 		super();		
